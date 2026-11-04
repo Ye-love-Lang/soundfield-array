@@ -1,0 +1,35 @@
+/ {
+	amba_pl: amba_pl {
+		ranges;
+		compatible = "simple-bus";
+		#address-cells = <1>;
+		#size-cells = <1>;
+		firmware-name = "soundfield_mic_filter.bit.bin";
+		clocking1: clocking1 {
+			compatible = "xlnx,fclk";
+			assigned-clocks = <&clkc 16>;
+			assigned-clock-rates = <100000000>;
+			#clock-cells = <0>;
+			clock-output-names = "fabric_clk";
+			clocks = <&clkc 16>;
+		};
+		clocking0: clocking0 {
+			compatible = "xlnx,fclk";
+			assigned-clocks = <&clkc 15>;
+			assigned-clock-rates = <200000000>;
+			#clock-cells = <0>;
+			clock-output-names = "fabric_clk";
+			clocks = <&clkc 15>;
+		};
+		mic_filter_axi_0: mic_filter_axi@43c00000 {
+			compatible = "xlnx,mic-filter-axi-1.0";
+			status = "okay";
+			clock-names = "s_axi_aclk";
+			xlnx,ip-name = "mic_filter_axi";
+			xlnx,edk-iptype = "PERIPHERAL";
+			reg = <0x43c00000 0x10000>;
+			clocks = <&clkc 16>;
+			xlnx,name = "mic_filter_axi_0";
+		};
+	};
+};

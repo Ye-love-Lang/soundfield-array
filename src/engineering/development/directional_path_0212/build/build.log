@@ -1,0 +1,9 @@
+{"passed":true,"scope":"actual runtime/controller/design/protocol; AXI and network stubbed","checks":"startup guard,retarget,diagnostics,buffer canaries,fault disable,legacy PL,PS-only restart"}
+
+
+
+
+
+
+measured-path exact-null bins: 33
+local path trained32+heldout32, unit target/noise bound, unstable validation rejected with old profile retained: PASS (38 bins)

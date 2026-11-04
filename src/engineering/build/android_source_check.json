@@ -1,0 +1,650 @@
+{
+  "source_archive_sha256": "756a4d3e6a59b84d1c32e83723913115193c70f41d51152647e333b9de36969d",
+  "manifest_no_bluetooth": true,
+  "apk_candidates": [
+    {
+      "archive_path": "app/build/outputs/apk/debug/app-debug.apk",
+      "sha256": "2ccf3d2245af20959033da76082a14a74d21545d3d149957532887cdd31cd104",
+      "matches_published": true
+    }
+  ],
+  "source_files": [
+    {
+      "path": ".gitignore",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        18
+      ],
+      "sha256": "703238443066325af08e3868d1e4b571a633baf68fcc93e323f0066999a97e1b"
+    },
+    {
+      "path": ".kotlin/errors/errors-1792552122874.log",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        11,
+        9,
+        0
+      ],
+      "sha256": "447e17f2d3f1257fc0f97a54a8b6f4bbc4873581aa73c44de923599e82d0d1af"
+    },
+    {
+      "path": ".kotlin/errors/errors-1793107024956.log",
+      "archive_date": [
+        2026,
+        10,
+        27,
+        21,
+        17,
+        30
+      ],
+      "sha256": "345eecbbd6b6620b29b3346e606a994e6883a461b50877a89f3b78b53e455cb1"
+    },
+    {
+      "path": "ACCEPTANCE.md",
+      "archive_date": [
+        2026,
+        10,
+        27,
+        21,
+        15,
+        0
+      ],
+      "sha256": "0291a3edfa45dd9e56c64c38fe305c43bed05b2bcaa83356c1927a273481c0f9"
+    },
+    {
+      "path": "app/.gitignore",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        18
+      ],
+      "sha256": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        11,
+        2,
+        34
+      ],
+      "sha256": "e44f87e71ad8653a9cc881f9fde17de1d75cc89b540e44a171cdce99905c1884"
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        18
+      ],
+      "sha256": "56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/soundfield/ExampleInstrumentedTest.kt",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        20
+      ],
+      "sha256": "328aa14527972741db5a7da3d16e38599594df15617d72da696b0ec0c1f70308"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "archive_date": [
+        2026,
+        10,
+        27,
+        21,
+        14,
+        6
+      ],
+      "sha256": "a8d80c9fdc42f1f4ce5ce16e4af28bb44ffa21700695ae414ba3455122ffd134"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/audio/PcmChunker.kt",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        11,
+        40,
+        46
+      ],
+      "sha256": "af32ff957fbc1bfb06ea4e70eea90ff7476f283a4e34114cbc8f4e699ccdaed6"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/audio/PcmStreamPlayer.kt",
+      "archive_date": [
+        2026,
+        10,
+        23,
+        21,
+        26,
+        32
+      ],
+      "sha256": "e59989c3cb69cb0e96a5674131d425a0ffb3e9237805bc4d72ed6afb593d0f3a"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/DemoField.kt",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        47,
+        20
+      ],
+      "sha256": "513a65303f05156dc169b4163af7b858179a8843aeac389414a75ebe281fdeea"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/MainActivity.kt",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        11,
+        10,
+        14
+      ],
+      "sha256": "ebc9f4f936111157d69469f0ef880ce6a591b117e740f9d6bdb5f25887d6fadb"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/protocol/ControlProtocol.kt",
+      "archive_date": [
+        2026,
+        10,
+        23,
+        18,
+        22,
+        52
+      ],
+      "sha256": "13060567f8bbe179811f8399ea96f3e0473a92ab56d633c69167f0e95b166a62"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/recordings/LocalWavRecorder.kt",
+      "archive_date": [
+        2026,
+        10,
+        23,
+        21,
+        26,
+        50
+      ],
+      "sha256": "74133108ced3c0081cbf5c7925624709b60ce047a32cbed4d795a065487662bc"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/recordings/RecordingRepository.kt",
+      "archive_date": [
+        2026,
+        10,
+        23,
+        21,
+        27,
+        54
+      ],
+      "sha256": "ae696500ed1fc96b84ab8c4781de86b464a53196f83456c9b750ffb8e89c4477"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/recordings/WavValidator.kt",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        22,
+        56,
+        58
+      ],
+      "sha256": "d818421b6f03188d0900fed4973781e4ad582a299e99b962675a38ff482ad5ee"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/SoundFieldViewModel.kt",
+      "archive_date": [
+        2026,
+        10,
+        27,
+        21,
+        15,
+        18
+      ],
+      "sha256": "eb4c9e646e826bfdf5e0b9ae9e20b4d71efbe2adcfcc8ac509df673407cb9255"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/transport/ControlClient.kt",
+      "archive_date": [
+        2026,
+        10,
+        27,
+        21,
+        14,
+        6
+      ],
+      "sha256": "2ee1c71c34ba45a2a950dc40d7928e99116b6e8950320858d2a0f479723b108c"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/ui/SoundFieldApp.kt",
+      "archive_date": [
+        2026,
+        10,
+        27,
+        21,
+        14,
+        0
+      ],
+      "sha256": "a9982fab2738a09670092b040c5b4174110fd4ab5811905c848940c8d637a29e"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/ui/theme/Color.kt",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        48,
+        22
+      ],
+      "sha256": "f60da9e3025053d55bc42566364c62141d3d5dc840bf58cdb605a58e86aa0918"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/ui/theme/Theme.kt",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        48,
+        24
+      ],
+      "sha256": "44b775c3f5bd7d8f65becb8ebf0535721219fb9571db725da5a9fce47de41945"
+    },
+    {
+      "path": "app/src/main/java/com/example/soundfield/ui/theme/Type.kt",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        20
+      ],
+      "sha256": "b355c64168ed3fe8e1f5a0bc4dea17f56960cc6ebcdd0a4eb26a80058778a996"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "archive_date": [
+        2026,
+        10,
+        24,
+        11,
+        31,
+        36
+      ],
+      "sha256": "b8cca82ea0670739574a2bbd9892a22120072fb88a2d40bf1ab107c78ab8c9ec"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "archive_date": [
+        2026,
+        10,
+        24,
+        11,
+        31,
+        38
+      ],
+      "sha256": "394a110d4dda17c43cc583da1a3b78eb29ca16b625608766511ebd48bc6a6c12"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_monochrome.xml",
+      "archive_date": [
+        2026,
+        10,
+        24,
+        11,
+        31,
+        38
+      ],
+      "sha256": "cc0dfd000e6ecbfbb6d832e22ee50dcde7b0b44c7d23a5610ba497fb4d91a863"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "archive_date": [
+        2026,
+        10,
+        24,
+        11,
+        31,
+        50
+      ],
+      "sha256": "ada31da9e23f4520f3753e71ca23799a107431473daa3774b6cecac26847260c"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "archive_date": [
+        2026,
+        10,
+        24,
+        11,
+        31,
+        50
+      ],
+      "sha256": "ada31da9e23f4520f3753e71ca23799a107431473daa3774b6cecac26847260c"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "archive_date": [
+        2026,
+        10,
+        24,
+        11,
+        31,
+        48
+      ],
+      "sha256": "8aea2341d9241d61a36ab8ffc29a9b36ea01cf8b86c4db477e80a40da231360c"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher_round.xml",
+      "archive_date": [
+        2026,
+        10,
+        24,
+        11,
+        31,
+        48
+      ],
+      "sha256": "e2cb45d70534407b5fcbbb2ce2fc9c96ea64ed7305dbc66589d58760aef1face"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        20
+      ],
+      "sha256": "b5626527d503417f0d8e5b1e08f338de7b31173bf0e122815f03e64932adbd88"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        53,
+        2
+      ],
+      "sha256": "428de5394d61880fd8fb13f24e5db8c6a766e870737a707eaf1e4fdeeeda3540"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        20
+      ],
+      "sha256": "8257382a3561d97eeb0b439449d4fd2d2aa275d7a91aaf6410f630cf43c2b688"
+    },
+    {
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        20
+      ],
+      "sha256": "6cf1a27e6807b1d24e41d3fbe7ddc1bfe1f42226027964f6eaf477d71b43b283"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        20
+      ],
+      "sha256": "cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381"
+    },
+    {
+      "path": "app/src/test/java/com/example/soundfield/DemoFieldTest.kt",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        53,
+        0
+      ],
+      "sha256": "609e258901129286cfc942606044f3b1cdb0cf3bdd70cd1fa2df5807cb16b79a"
+    },
+    {
+      "path": "app/src/test/java/com/example/soundfield/ExampleUnitTest.kt",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        20
+      ],
+      "sha256": "4e7380d9f993660397a106aa8aac83d05e33f6b98f70deca9f2c6c70afa3a5d9"
+    },
+    {
+      "path": "app/src/test/java/com/example/soundfield/PcmChunkerTest.kt",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        11,
+        40,
+        48
+      ],
+      "sha256": "b33ddb5e4f1e77a233cf8aced368e74807eb1f8e679e1a0f8d5cda2134e3aa69"
+    },
+    {
+      "path": "app/src/test/java/com/example/soundfield/WavValidatorTest.kt",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        22,
+        59,
+        6
+      ],
+      "sha256": "9db428732aaf9494c21d1670c545acc17036269aeef3dd0c287c1476199b76fc"
+    },
+    {
+      "path": "build.gradle.kts",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        20
+      ],
+      "sha256": "b001f81a8a22975c7a2b3af65cfdd80a7ba5b8cc524be259f9537f325fff8829"
+    },
+    {
+      "path": "gradle.properties",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        18
+      ],
+      "sha256": "51e4b5a131eb01b1cdeb2f6f26aaba69d367a4a9d4ccd10c6d6f6d12fd545b66"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        11,
+        2,
+        32
+      ],
+      "sha256": "4527d31e9740053d62192f1c326141e831e39313b32d67399dceee3001313951"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        18
+      ],
+      "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        20
+      ],
+      "sha256": "ad95ffbc9ef9607b902d08b2a4d5193f07730c5623b22df9d9a45c2c4ce0e911"
+    },
+    {
+      "path": "gradlew",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        18
+      ],
+      "sha256": "63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65"
+    },
+    {
+      "path": "gradlew.bat",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        18
+      ],
+      "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b"
+    },
+    {
+      "path": "README.md",
+      "archive_date": [
+        2026,
+        10,
+        27,
+        21,
+        14,
+        28
+      ],
+      "sha256": "402e996ba74bd4bcf65971df44814ef76f78ab1005453e1749ecad387e7d2c34"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "archive_date": [
+        2026,
+        10,
+        21,
+        10,
+        43,
+        18
+      ],
+      "sha256": "00e6917034f10c2479fe46f440721f17ed6df736e22086b6b765cd0dc4c4bbbd"
+    },
+    {
+      "path": "tools/__pycache__/mock_zynq.cpython-314.pyc",
+      "archive_date": [
+        2026,
+        10,
+        23,
+        18,
+        19,
+        54
+      ],
+      "sha256": "83cd78071b50a7b0a9361ab867738408b2c1bd22a766a649394b6817a38c6983"
+    },
+    {
+      "path": "tools/__pycache__/test_mock_zynq.cpython-314.pyc",
+      "archive_date": [
+        2026,
+        10,
+        23,
+        18,
+        21,
+        48
+      ],
+      "sha256": "3c470f10407ce3335953794d31d97ff6c6bad475054b37bb760593fa5c6f0bbd"
+    },
+    {
+      "path": "tools/mock_zynq.py",
+      "archive_date": [
+        2026,
+        10,
+        23,
+        18,
+        19,
+        34
+      ],
+      "sha256": "f68f7ec260794ec8c714e3fa9a6f156e8c0281627723aff23fed7be7662a3877"
+    },
+    {
+      "path": "tools/test_mock_zynq.py",
+      "archive_date": [
+        2026,
+        10,
+        23,
+        18,
+        21,
+        42
+      ],
+      "sha256": "1ed808d0af9ab903ade61b3082dda75dc6d6da1942cc89b8cd4b0240753afa00"
+    },
+    {
+      "path": "ZYNQ_INTEGRATION_HANDOFF.md",
+      "archive_date": [
+        2026,
+        10,
+        27,
+        21,
+        14,
+        48
+      ],
+      "sha256": "a8d13527b30e042d1ca92ac7e5fe4e6fae579febcc3afc8ec2b311471a209644"
+    }
+  ],
+  "android_rebuilt_this_round": false
+}

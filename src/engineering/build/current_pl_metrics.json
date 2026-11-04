@@ -1,0 +1,12 @@
+{
+  "lut": 16883.0,
+  "ff": 20848.0,
+  "bram36_equiv": 27.0,
+  "dsp": 24.0,
+  "wns_ns": 0.155,
+  "tns_ns": 0.0,
+  "whs_ns": 0.024,
+  "ths_ns": 0.0,
+  "declared_constraints_pass": true,
+  "scope": "Declared constraints only; does not certify CDC, external IO or end-to-end system latency."
+}

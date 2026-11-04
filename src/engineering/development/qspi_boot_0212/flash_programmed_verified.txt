@@ -1,0 +1,1 @@
+version=0.21.2-eight-mic-localpath boot_crc32=2772263000 log=D:/FPGA_Learning/Work_project/soundfield_8mic/test_results/qspi_program0212_20261103_174147.txt

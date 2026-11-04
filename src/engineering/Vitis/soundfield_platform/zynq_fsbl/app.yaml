@@ -1,0 +1,4 @@
+domain_path: G:/FPGA_Projects/soundfield_zynq_fw/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp
+app_src_dir: G:\AMD_design_tools\2026.1\Vitis\data\embeddedsw\lib\sw_apps\zynq_fsbl
+template: zynq_fsbl
+lang: c

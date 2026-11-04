@@ -1,0 +1,12 @@
+**/.Xil/
+**/.gradle/
+**/.idea/
+**/__pycache__/
+**/local.properties
+**/*.jou
+**/*.log
+**/sf21.gen/
+**/sf21.ip_user_files/
+*.rar
+*.zip
+~$*

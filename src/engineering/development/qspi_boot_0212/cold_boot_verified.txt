@@ -1,0 +1,1 @@
+boot_mode=1 version=0.21.2-eight-mic-localpath log=qspi_coldboot0212_20261103_175433.txt

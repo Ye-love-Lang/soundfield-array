@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "valid_manifest_pass",
+    "single_byte_tamper_rejected",
+    "root_escape_rejected",
+    "actual_vivado_metrics_match",
+    "missing_report_fields_rejected"
+  ],
+  "passed": true,
+  "hardware_touched": false
+}

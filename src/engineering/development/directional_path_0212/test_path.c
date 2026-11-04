@@ -1,0 +1,9 @@
+#include "adaptive.h"
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#define P 3.14159265358979323846
+#define C(x) do{if(!(x)){fprintf(stderr,"FAIL %d %s\n",__LINE__,#x);exit(1);}}while(0)
+static void v(unsigned k,AdComplex q[8],int unstable){for(unsigned i=0;i<8;i++){double p=2*P*k*93.75*60/343000*cos((90+45.0*i-180)*P/180)+.7*i+(unstable&&i==3?.8:0);double g=i?(.6+.6*i):1;q[i]=(AdComplex){g*cos(p),g*sin(p)};}}
+static void frames(unsigned count,int unstable){for(unsigned f=0;f<count;f++){for(unsigned k=2;k<=53;k++){AdComplex q[8];v(k,q,unstable);ad_observe(k,q);}ad_frame_done();}}
+int main(void){AdStatus s;double r[8],im[8];ad_init();C(ad_path_calibrate(180));frames(32,0);ad_status(&s);C(s.cal_state==1&&s.cal_stage==2&&s.path_bins==0);frames(32,0);ad_status(&s);C(s.cal_state==2&&s.path_bins==52&&s.cal_bins==52);frames(32,0);ad_freeze();unsigned count=0;for(unsigned k=2;k<=53;k++)if(ad_weights(k*93.75,180,r,im)){AdComplex q[8];v(k,q,0);double norm=0,re=0,ii=0,pow=0;for(unsigned i=0;i<8;i++)norm+=q[i].r*q[i].r+q[i].i*q[i].i;for(unsigned i=0;i<8;i++){double g=sqrt(8/norm);re+=r[i]*q[i].r*g+im[i]*q[i].i*g;ii+=r[i]*q[i].i*g-im[i]*q[i].r*g;pow+=r[i]*r[i]+im[i]*im[i];}C(fabs(re-1)<1e-6&&fabs(ii)<1e-6&&pow<=.5+1e-6);count++;}C(count>0);unsigned nulls=0;for(unsigned k=2;k<=53;k++)if(ad_weights(k*93.75,90,r,im)){AdComplex q[8];v(k,q,0);double re=0,ii=0;for(unsigned i=0;i<8;i++){re+=r[i]*q[i].r+im[i]*q[i].i;ii+=r[i]*q[i].i-im[i]*q[i].r;}if(hypot(re,ii)<1e-7)nulls++;}C(nulls>0);printf("measured-path exact-null bins: %u\n",nulls);C(ad_path_calibrate(180));frames(32,0);frames(32,1);ad_status(&s);C(s.cal_state==3&&s.path_bins==52);printf("local path trained32+heldout32, unit target/noise bound, unstable validation rejected with old profile retained: PASS (%u bins)\n",count);return 0;}

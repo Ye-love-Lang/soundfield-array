@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-02",
+  "stage": "Isolated RTL and candidate AXI simulation; standalone core synthesis. No system place/route, new firmware or board download.",
+  "goldenSamples": 1300,
+  "maximumComputeClocks": 518,
+  "sampleIntervalClocks": 2083,
+  "synthesis": {
+    "part": "xc7z020clg400-2",
+    "clockPeriodNs": 10,
+    "dsp": 15,
+    "bramTiles": 12,
+    "luts": 148,
+    "registers": 187,
+    "estimatedSetupSlackNs": 4.43,
+    "estimatedHoldSlackNs": 0.246,
+    "note": "Synthesized core timing estimate only, not system routed timing"
+  },
+  "logs": {
+    "fir_rtl_results.log": "Time resolution is 1 ps\r\nARRAY_FIR_PASS golden=1300 max_latency_cycles=518 outputs=1310\r\n$finish called at time : 27563776 ns : File \"D:/FPGA_Learning/Work_project/soundfield_8mic/development/multiband_candidate/tb_array_fir.v\" Line 85",
+    "tb_fir_control_results.log": "Time resolution is 1 ps\r\nFIR_AXI_PASS signatures,upload,strobe,atomic commit,live update,FIFO single output,DAS fallback\r\n$finish called at time : 1522230 ns : File \"D:/FPGA_Learning/Work_project/soundfield_8mic/development/multiband_candidate/tb_fir_control.v\" Line 89",
+    "tb_beam_control_results.log": "Time resolution is 1 ps\r\nPASS AXI beam signature,shadow/commit,clamp,isolation,warmup,audio FIFO and peak protection\r\n$finish called at time : 732820 ns : File \"D:/FPGA_Learning/Work_project/soundfield_8mic/development/beamforming_0190/tb_beam_control.v\" Line 75",
+    "tb_array_axi_results.log": "Time resolution is 1 ps\r\nPASS AXI old/new register isolation,AW/W skew,freeze status,signed64 correlation,energy,counters\r\n$finish called at time : 2085620 ns : File \"D:/FPGA_Learning/Work_project/soundfield_8mic/tests/tb_array_axi.v\" Line 81",
+    "tb_array_snapshot_results.log": "Time resolution is 1 ps\r\nPASS 40 concurrent snapshots,all1036 correlations+8 energies per snapshot,48kHz no overruns\r\n$finish called at time : 10665060 ns : File \"D:/FPGA_Learning/Work_project/soundfield_8mic/tests/tb_array_snapshot.v\" Line 61"
+  },
+  "inputs": {
+    "array_fir.v": "c586fe0a71b39c44d98ca1cc57aebb680752da1b9ec1fb79499d8151acd67d06",
+    "mic_filter_axi.v": "bb6f2c8c439fa2b109c5ac29e581619bdedd80c015583e0aea1e8d823ae29cbd",
+    "tb_array_fir.v": "102eb4079f572c13312c0e9e9fc110eb73596a4a759a2e3a1a67532fdfa2af5f",
+    "tb_fir_control.v": "45ca6a8c7ba2a219d60cbcc6c145b107111d54574f6f86ad77f375cf9b2affe5",
+    "fir_vectors.mjs": "beb6a178effdb1c2490c5e54bf686fc815ce7d571b764c8b2481ed269b12eee5",
+    "fir_input.hex": "1b400f1d9c1b0d501813dd57d1fdcc3ea74d4c273fdcaecb019e60e6785b7743",
+    "fir_expected.hex": "432880fcc84efc8801862bf9400cca8f036edbfadeef34c3600cf5ec510e6110",
+    "fir_coefficients.hex": "4de4f0bd46e2bcd3829b49b48db21beb22e820226d9c90e50ec881ed988378a7"
+  },
+  "remaining": [
+    "PS coefficient generation/upload and reliable source control",
+    "click-free coefficient transition and fallback latency handling",
+    "DC removal integration and gain/headroom validation",
+    "full-system synthesis/place/route",
+    "real acoustic tests including30dB goal"
+  ]
+}

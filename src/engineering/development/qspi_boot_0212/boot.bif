@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+ [bootloader] D:/FPGA_Learning/Work_project/soundfield_8mic/development/qspi_boot_0212/build/fsbl_qspi.elf
+ D:/FPGA_Learning/Work_project/soundfield_8mic/development/qspi_boot_0212/build/soundfield_sectorfir.bit
+ D:/FPGA_Learning/Work_project/soundfield_8mic/development/qspi_boot_0212/build/soundfield_sectorfir.elf
+}

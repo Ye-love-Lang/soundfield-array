@@ -1,0 +1,47 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.651496",
+   "Default View_TopLeft":"-112,-1205",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0
+#  -string -flagsOSRD
+preplace port DDR_0 -pg 1 -lvl 7 -x 2110 -y -670 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 7 -x 2110 -y -640 -defaultsOSRD
+preplace port RGMII_0 -pg 1 -lvl 7 -x 2110 -y -770 -defaultsOSRD
+preplace port MDIO_PHY_0 -pg 1 -lvl 7 -x 2110 -y -720 -defaultsOSRD
+preplace port port-id_MIC_SCK -pg 1 -lvl 7 -x 2110 -y -460 -defaultsOSRD
+preplace port port-id_MIC_WS -pg 1 -lvl 7 -x 2110 -y -430 -defaultsOSRD
+preplace portBus ETH_RESET -pg 1 -lvl 7 -x 2110 -y -900 -defaultsOSRD
+preplace portBus MIC_SD -pg 1 -lvl 0 -x -10 -y -340 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 570 -y -630 -defaultsOSRD
+preplace inst gmii_to_rgmii_0 -pg 1 -lvl 1 -x 180 -y -620 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 180 -y -880 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 2 -x 570 -y -890 -defaultsOSRD
+preplace inst mic_filter_axi_0 -pg 1 -lvl 6 -x 1960 -y -440 -defaultsOSRD
+preplace inst axi_mic_interconnect -pg 1 -lvl 5 -x 1660 -y -470 -defaultsOSRD
+preplace inst rst_mic_100 -pg 1 -lvl 4 -x 1320 -y -510 -defaultsOSRD
+preplace inst mic_reset_invert -pg 1 -lvl 3 -x 1000 -y -530 -defaultsOSRD
+preplace netloc MIC_SD_1 1 0 6 NJ -340 NJ -340 NJ -340 NJ -340 NJ -340 1810J
+preplace netloc mic_filter_axi_0_mic_sck 1 6 1 2090J -460n
+preplace netloc mic_filter_axi_0_mic_ws 1 6 1 NJ -430
+preplace netloc mic_reset_invert_Res 1 3 1 N -530
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 10 -950 N -950 800
+preplace netloc processing_system7_0_FCLK_CLK1 1 1 5 360 -820 820 -590 1150 -610 1500 -330 1830J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 NJ -530
+preplace netloc rst_mic_100_interconnect_aresetn 1 4 1 N -490
+preplace netloc rst_mic_100_peripheral_aresetn 1 4 2 1490 -350 1820J
+preplace netloc xlconstant_0_dout 1 0 2 20 -780 320
+preplace netloc xlconstant_1_dout 1 2 5 NJ -890 NJ -890 NJ -890 NJ -890 2090
+preplace netloc axi_mic_interconnect_M00_AXI 1 5 1 N -470
+preplace netloc gmii_to_rgmii_0_MDIO_PHY 1 1 6 320J -470 840J -720 NJ -720 NJ -720 NJ -720 NJ
+preplace netloc gmii_to_rgmii_0_RGMII 1 1 6 330J -790 NJ -790 NJ -790 NJ -790 NJ -790 2090J
+preplace netloc processing_system7_0_DDR 1 2 5 850 -670 NJ -670 NJ -670 NJ -670 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 2 5 830 -640 NJ -640 NJ -640 NJ -640 NJ
+preplace netloc processing_system7_0_GMII_ETHERNET_0 1 0 3 30 -810 NJ -810 780
+preplace netloc processing_system7_0_MDIO_ETHERNET_0 1 0 3 40 -800 NJ -800 790
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 3 810J -630 NJ -630 1510
+levelinfo -pg 1 -10 180 570 1000 1320 1660 1960 2110
+pagesize -pg 1 -db -bbox -sgen -1140 -1120 2270 200
+"
+}
+0

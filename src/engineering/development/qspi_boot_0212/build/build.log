@@ -1,0 +1,327 @@
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_io.h:50,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/fsbl.h:310,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/fsbl_hooks.c:28:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_io.h:50,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/fsbl.h:310,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/image_mover.c:67:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/md5.h:34,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/md5.c:79:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_io.h:50,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/fsbl.h:310,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/main.c:109:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_io.h:50,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/fsbl.h:310,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/nand.c:33:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_io.h:50,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/fsbl.h:310,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/nor.c:29:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xdevcfg_hw.h:43,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xdevcfg.h:146,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/pcap.h:41,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/pcap.c:73:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_io.h:50,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/ps7_init.c:7232:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/ps7_init.c: In function 'ps7_config':
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/ps7_init.c:7357:35: warning: comparison of integer expressions of different signedness: 'long unsigned int' and 'int' [-Wsign-compare]
+ 7357 |                     while ((*addr < delay)) {
+      |                                   ^
+
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xstatus.h:33,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/xqspips.h:292,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_config.c:1:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_io.h:50,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/fsbl.h:310,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi.h:31,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi.c:52:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_io.h:50,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/fsbl.h:310,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/sd.c:30:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/xqspips_hw.h:54,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/xqspips_hw.c:31:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/xqspips_hw.c: In function 'XQspiPs_LinearInit':
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/xqspips_hw.c:170:13: error: 'XPAR_XQSPIPS_0_QSPI_MODE' undeclared (first use in this function); did you mean 'XPAR_XQSPIPS_0_QSPI_BUS_WIDTH'?
+  170 |         if (XPAR_XQSPIPS_0_QSPI_MODE == XQSPIPS_CONNECTION_MODE_SINGLE) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |             XPAR_XQSPIPS_0_QSPI_BUS_WIDTH
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/xqspips_hw.c:170:13: note: each undeclared identifier is reported only once for each function it appears in
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xstatus.h:33,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/xqspips.h:292,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/xqspips.c:97:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xstatus.h:33,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/xqspips.h:292,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/xqspips_options.c:44:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+In file included from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:10,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xil_types.h:53,
+                 from D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xstatus.h:33,
+                 from C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/xqspips_sinit.c:31:
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/xparameters_ps.h:111: warning: "XPAR_XSLCR_0_BASEADDR" redefined
+  111 | #define XPAR_XSLCR_0_BASEADDR           XPS_SYS_CTRL_BASEADDR
+      | 
+In file included from <command-line>:
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:9: note: this is the location of the previous definition
+    9 | #define XPAR_XSLCR_0_BASEADDR 0xF8000000U
+      | 
+D:/FPGA_Learning/Work_project/soundfield_8mic/Vitis/soundfield_platform/zynq_fsbl/zynq_fsbl_bsp/include/bspconfig.h:45: warning: "STDOUT_BASEADDRESS" redefined
+   45 | #define STDOUT_BASEADDRESS 0xe0001000
+      | 
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/qspi_board.h:12: note: this is the location of the previous definition
+   12 | #define STDOUT_BASEADDRESS 0xE0001000U
+      | 
+
+--- Corrected board adapter: use existing bspconfig definitions; add QSPI_MODE required by driver. ---
+
+
+
+
+
+
+
+
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/ps7_init.c: In function 'ps7_config':
+C:\Users\lanmy\Documents\Codex\2026-10-13\w/qspi_boot_0212/src/ps7_init.c:7357:35: warning: comparison of integer expressions of different signedness: 'long unsigned int' and 'int' [-Wsign-compare]
+ 7357 |                     while ((*addr < delay)) {
+      |                                   ^
+
+
+
+
+
+
+
+
+
+
+
+
+C:/Users/lanmy/Documents/Codex/2026-10-13/w/qspi_boot_0212/src/ps7_init.c: In function 'ps7_config':
+C:/Users/lanmy/Documents/Codex/2026-10-13/w/qspi_boot_0212/src/ps7_init.c:7945:35: warning: comparison of integer expressions of different signedness: 'long unsigned int' and 'int' [-Wsign-compare]
+ 7945 |                     while ((*addr < delay)) {
+      |                                   ^
+
+
+

@@ -1,0 +1,22 @@
+{
+  "soundfield_sectorfir.bit": {
+    "crc32": 1039615890,
+    "sha256": "84163427a26fc1826500b02969375862bc24aff2996e1333b3f57f143b23ea85",
+    "bytes": 4045771
+  },
+  "soundfield_sectorfir.xsa": {
+    "crc32": 2251531722,
+    "sha256": "2596caed8bbde4e32b8b8a904c33b843af70dae4b14e68e4bf6cf5bc27196b10",
+    "bytes": 980052
+  },
+  "soundfield_sectorfir.elf": {
+    "crc32": 1991965747,
+    "sha256": "a4fb5fb70739182338d2befab7543ab0de0449ab3af4e0fb37e862dc780474a3",
+    "bytes": 1063544
+  },
+  "ps7_init.tcl": {
+    "crc32": 1452454696,
+    "sha256": "a2b4183c8296cc638a4fe8f918546aadb6044b57ab2988faea84d77fd27eef31",
+    "bytes": 27014
+  }
+}
